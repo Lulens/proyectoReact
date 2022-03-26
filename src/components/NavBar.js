@@ -1,11 +1,11 @@
-import React, {Component} from 'react'
+import CartWidget from './CartWidget'
 
-export default class NavBar extends Component {
-    render(){
-        return(
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+const NavBar = () => {
+    return(
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Mateando Así</a>
+                    <a class="navbar-brand" href="#">Menú</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -25,8 +25,12 @@ export default class NavBar extends Component {
                             </li>
                         </ul>
                     </div>
+                    <CartWidget/>
                 </div>
             </nav>
-        )
-    }
+    )
 }
+
+export default NavBar
+
+
