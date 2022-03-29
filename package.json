@@ -34,5 +34,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Proyecto del curso React JS en CoderHouse María Lucía Báez - Marzo/Abril 2022",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lulens/proyectoReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lulens/proyectoReact/issues"
+  },
+  "homepage": "https://github.com/Lulens/proyectoReact#readme"
 }
